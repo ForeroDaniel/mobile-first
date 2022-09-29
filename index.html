@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/ca024de755.js" crossorigin="anonymous"></script>
   <title>My Mobile First Practice</title>
 </head>
 <body>
-  <header>
-    <img src="#" alt="logo">
-    <nav>
-      <ul>
-        <li><a href="#">PRODUCTS</a></li>
-        <li><a href="#">SERVICES</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">JOBS</a></li>
-        <li><a href="#">CONTACT</a></li>
-      </ul>
-      <p><strong>+81 00-0000-0000</strong></p>
-    </nav>
+  <header class="top-nav">
+    <p>Logo</p>
+
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+    </label>
+    <ul class="menu">
+      <li><a href="#">PRODUCTS</a></li>
+      <li><a href="#">SERVICES</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">JOBS</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
   </header>
   <main>
-    <section>
+    <section class="section-one">
       <h1>Creative Solutions</h1>
-      <p>
+      <p id="section-one-text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugit, omnis maxime sapiente laborum quasi? Perspiciatis, laborum! Corrupti deleniti iure voluptas sint, possimus incidunt necessitatibus, quo alias dignissimos at praesentium!
       </p>
     </section>
-    <section>
+    <section class="section-two">
       <article>
-        <img src="#" alt="icon">
+        <i class="fa-solid fa-address-book"></i>
         <h2>Consulting</h2>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam praesentium deserunt quisquam sit soluta distinctio incidunt voluptatum quos vel, id excepturi neque unde repellendus veritatis accusantium similique aliquid ipsa! Numquam!
         </p>
       </article>
       <article>
-        <img src="#" alt="icon">
+        <i class="fa-solid fa-file-code"></i>
         <h2>Developing</h2>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam praesentium deserunt quisquam sit soluta distinctio incidunt voluptatum quos vel, id excepturi neque unde repellendus veritatis accusantium similique aliquid ipsa! Numquam!
         </p>
       </article>
       <article>
-        <img src="#" alt="icon">
+        <i class="fa-solid fa-pen-nib"></i>
         <h2>Designing</h2>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam praesentium deserunt quisquam sit soluta distinctio incidunt voluptatum quos vel, id excepturi neque unde repellendus veritatis accusantium similique aliquid ipsa! Numquam!
         </p>
       </article>
       <article>
-        <img src="#" alt="icon">
+        <i class="fa-solid fa-compass-drafting"></i>
         <h2>Analysis</h2>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam praesentium deserunt quisquam sit soluta distinctio incidunt voluptatum quos vel, id excepturi neque unde repellendus veritatis accusantium similique aliquid ipsa! Numquam!
